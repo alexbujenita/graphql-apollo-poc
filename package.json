@@ -1,0 +1,32 @@
+{
+  "name": "graphql-apollo-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbujenita/graphql-apollo-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexbujenita/graphql-apollo-poc/issues"
+  },
+  "homepage": "https://github.com/alexbujenita/graphql-apollo-poc#readme",
+  "dependencies": {
+    "apollo-datasource": "^0.7.2",
+    "apollo-server": "^2.18.1",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  },
+  "nodemonConfig": {
+    "delay": 2000,
+    "env": {
+      "NODE_ENV": "dev"
+    }
+  }
+}
